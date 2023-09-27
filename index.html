@@ -8,15 +8,15 @@
 </head>
 <body>
     <div class="background"></div>
-    <div class="centering"></div>
-    <form action="" class="my_forms">
-        <div>
+    <div class="centering">
+    <form action="" class="my_form">
+        <div class="login_welcome">
             <img src="https://th.bing.com/th/id/OIP.wQ7GuMgOJP6to4Hjk3jBqQHaEU?pid=ImgDet&rs=1" alt="astronauta" class="login">
             <h1>Iniciar sesión</h1>
         </div>
         <div class="text_field">
             <label for="email">email</label>
-            <input type="email" name="email" id="email" placeholder="ingrese su email" aria-label="required">
+            <input type="email" name="email" id="email" placeholder="ingrese su email" aria-label="email" required>
             <img src="https://th.bing.com/th/id/OIP.Uqb7-XtV4iQ1nE2TTp_uqAHaHa?pid=ImgDet&rs=1" alt="email icono">
         </div>
 
@@ -25,13 +25,17 @@
             <input type="password" name="password" id="password" placeholder="password" aria-label="password" required>
             <img src="https://img2.freepng.es/20180423/zvw/kisspng-password-manager-computer-icons-password-strength-chang-5add8b6a512740.0074379815244685863324.jpg" alt="contraseña">
         </div>
-        <div type="submit" value="login" class="my_form_button"></div>
-        <div class="my_form_acctins">
+        <input type="submit" class="my_form_button" value="login">
+        <div class="my_form_actions">
             <div class="my_form_row">
-                <span>olvidaste tu contraseña</span>
-                <a href="a" title="recuperar contraseña"></a>
+                <span>Olvidó su contraseña?</span>
+                <a href="#">Recuperar cuenta</a>
             </div>
         </div>
+        <div class="my_form_signup">
+            <a href="#">crear cuenta</a>
+        </div>
     </form>
+</div>
 </body>
 </html>
